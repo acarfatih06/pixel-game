@@ -7,7 +7,7 @@
     "server": "cd server && npm start",
     "client": "cd client && npm start",
     "install-all": "npm install && cd server && npm install && cd ../client && npm install",
-    "build": "cd client && npm run build",
+    "build": "cd client && npm install && npm run build",
     "start-prod": "cd server && npm start"
   },
   "dependencies": {
